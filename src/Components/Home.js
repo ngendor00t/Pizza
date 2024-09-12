@@ -11,7 +11,8 @@ function Home(){
 
     return(
         <>
-    
+        {/* <div>i</div>
+     */}
         <div className="home-container">
              {/* Main Section */}
             <div className="text-section">

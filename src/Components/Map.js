@@ -7,6 +7,7 @@ import { tileLayer } from 'leaflet';
 const Map=()=>{
     
     const [location , setLocation]= useState([-1.283689, 36.817223]);
+    const [area, setArea] = useState('');
 
 
 
