@@ -25,6 +25,7 @@ function DeliveryPage() {
         <h2>Select Payment Method</h2>
 
         {/* Payment Method Options */}
+       
         <label>
           <input
             type="radio"
@@ -65,6 +66,7 @@ function DeliveryPage() {
         <button type="submit">Pay Now</button>
       </form>
     </div>
+    
   );
 }
 

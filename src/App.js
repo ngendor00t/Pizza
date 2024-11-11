@@ -6,7 +6,7 @@ import Login from './Pages/Login';
 import Home from './Components/Home';
 import DeliveryPage from './Pages/Delivery';
 import Map from './Components/Map';
-import Footer from './Components/Footer';
+
 
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Footer/>
+    
     <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
