@@ -28,6 +28,7 @@ function DeliveryPage() {
        
         <label>
           <input
+
             type="radio"
             value="mpesa"
             checked={paymentMethod === 'mpesa'}
@@ -49,21 +50,21 @@ function DeliveryPage() {
         {paymentMethod === 'mpesa' && (
           <div>
             <h3>Enter M-Pesa Phone Number</h3>
-            <input type="text" placeholder="Enter your phone number" required />
+            <input type="number" placeholder="Enter your phone number" required />
           </div>
         )}
 
         {paymentMethod === 'debit' && (
           <div>
             <h3>Enter Debit Card Details</h3>
-            <input type="text" placeholder="Card Number" required />
+            <input type="number" placeholder="Card Number" required />
             {/* <input type="text" placeholder="Expiry Date (MM/YY)" required />
             <input type="text" placeholder="CVV" required /> */}
           </div>
         )}
 
         {/* Submit Button */}
-        <button type="submit">Pay Now</button>
+        <button type="submit" className='delivery-btn'>Pay Now</button>
       </form>
     </div>
     
